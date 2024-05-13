@@ -1,0 +1,18 @@
+body{
+    background-image:url(background.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 1;
+    }
+h1{
+    text-align:center;
+    font-size: 300px;
+    font-style:bold;
+    color:black;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    font-size: 100px;
+
+}
