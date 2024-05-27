@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100vw;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gridLogo {
+    border-radius: 10px;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    border: solid;
+    padding: 20px;
+    position: relative;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 7px;
+}
+
+.name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    display: none;
+}
+
+.picture {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+#Bulbasaur {
+    background-color: #7AC74C;
+}
+
+#Bulbasaur:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Charmander {
+    background-color: #EE8130;
+}
+
+#Charmander:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Squirtle {
+    background-color: #6390F0;
+}
+
+#Squirtle:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Chansey {
+    background-color: #F95587;
+}
+
+#Chansey:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Gengar {
+    background-color: #6F35FC;
+}
+
+#Gengar:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Eevee {
+    background-color: #A8A77A;
+}
+
+#Eevee:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Jigglypuff {
+    background-color: #D685AD;
+}
+
+#Jigglypuff:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Gastly {
+    background-color: #A98FF3;
+}
+
+#Gastly:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Pikachu {
+    background-color: #F7D02C;
+}
+
+#Pikachu:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Nidorin {
+    background-color: #6390F0;
+}
+
+#Nidorin:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Psyduck {
+    background-color: #A8A77A;
+}
+
+#Psyduck:hover {
+    background-position: center;
+    background-image: url("https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png");
+    transition-duration: .5s;
+}
+
+#Fairy {
+    background-color: #F95587;
+}
+
+#Fairy:hover {
+    background-position: center;
+    background-image: url(https://fc00.deviantart.net/fs71/f/2011/147/2/f/hoverchu_by_beyx-d3hbx2z.png);
+    transition-duration: .5s;
+}
+
+@media (max-width: 948px) {
+    .container {
+        flex-direction: column;
+    }
+    .gridLogo {
+        width: 70vw;
+        height: 100px;
+        transition: 1s;
+    }
+    img {
+        height: 50px;
+        width: 40px;
+    }
+    .name {
+        font-size: 16px;
+    }
+    .picture {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 470px) {
+    .gridLogo {
+        width: 300px;
+        height: 300px;
+        transition: 1s;
+    }
+    img {
+        width: 250px;
+        height: 250px;
+        margin: 7px;
+    }
+    .name {
+        font-size: 20px;
+        display:block;
+    }
+    .picture {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+}
