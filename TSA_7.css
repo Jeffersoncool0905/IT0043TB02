@@ -334,3 +334,15 @@ background-size: cover;
         flex-direction: row;
     }
 }
+@media screen and (min-width: 500px) {
+    .content {
+        grid-template-columns: 70% 30%;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 500px) {
+    .episode{
+        grid-template-columns: 70% 30%;
+        flex-direction: row;
+    }
+}
