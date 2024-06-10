@@ -1,0 +1,336 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+   
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 18px;
+    padding-right: 1px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+nav ul li:hover{
+    background-color:#ccc;
+}
+
+.banner img {
+    margin-top: 8px;
+    margin-left: 14px;
+    width: 98%;
+    background-image: cover;
+    display: flex;
+    border-radius:8px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+
+
+
+.right-panel {
+    padding-left: 20px;
+}
+
+.episode {
+    margin-left: -5px;
+    background-color: #fff;
+    padding: 20px;
+    border: 10px solid white;
+    border-radius: 8px;
+    grid-column: 1/2;
+    padding-bottom: 35px;
+    border: 5px solid #ccc;
+}
+
+.episode h2 {
+    color: #b22222;
+}
+
+.episode button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #b22222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.episode button:hover {
+    background-color: #8b0000;
+}
+
+.tanjiro-image {
+    margin-left: -4px;
+    margin-top: 35px;
+    border:1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: url(tanjirorawr.webp); 
+    object-fit: cover;
+    background-size: cover;
+    border: 5px solid #ccc;
+
+}
+
+.palit{
+    border: 5px solid black;
+    width: 78rem;
+    height: 46.2rem;
+    border-radius: 8px;
+    object-fit: cover;
+    background: url(angastanjiro.jpg);
+    background-position: center;
+    box-shadow: 5px 5px 5px blue;
+
+}
+
+.palit:hover{
+    background: url(yorichiangas.gif);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+
+
+
+    
+}
+
+.character-cards{
+    display: flex;
+    gap: 20px;
+    padding-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+.character-card{ background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(earingstanjiro.png);
+    
+}
+.character-card:hover{
+    background: url(kamadotanjiro.jpg);
+    background-size: cover;
+}
+.character-card2{
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background:url(nezukobg.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.character-card2:hover{
+background: url(nezuko.jpg);
+background-size: cover;
+}
+
+.character-card1 {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background:url(zenitsubg.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.character-card1:hover{
+    background: url(zenitsu1.jpg);
+    background-size: cover;
+}
+.character-card4{
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background:url(peakpx.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.character-card4:hover{
+    background: url(inosuke.jpg);
+    background-size: cover;
+}
+.character-card img
+{
+    width: 100%;
+    max-width: 200px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px blue;
+    background-size: cover;
+    object-fit: cover;;
+}
+.character-card2 img
+{
+    width: 100%;
+    max-width: 200px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px blue;
+    background-size: cover;
+}
+.character-card1 img {
+    width: 100%;
+    max-width: 200px;
+    height:22rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px blue;
+}
+.character-card4 img{
+    width: 100%;
+    max-width: 200px;
+    height:22rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px blue;
+}
+
+.nameh3 {
+    margin: 10px 0 5px;
+    background-color: white;
+    font-size: 2rem;
+    border: 2px solid black;
+}
+
+.type {
+    border: 2px solid black;
+    margin: 10px 0 5px;
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+.pdesc {
+    margin: 5px 0;
+    background-color: white;
+    font-size: 1rem;
+    border: 2px solid black;
+}   
+
+.news {
+    margin-right: 35px;
+    padding-top:22px;
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius: 8px;
+    color: black;
+    border: 5px solid #ccc;
+    background-image: url(newsbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1778px;
+    overflow-y: auto;
+
+}
+
+.news h2 {
+    align-items: center;
+    color: #b22222;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+}
+
+.news ul li {
+    margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .content {
+        grid-template-columns: 70% 30%;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 768px) {
+    .episode{
+        grid-template-columns: 70% 30%;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .character-cards{
+        grid-template-columns: 70% 30%;
+        flex-direction: row;
+    }
+}
