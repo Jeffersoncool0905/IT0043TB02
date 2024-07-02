@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: url(galaxy.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    background: url(space.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.flex-grow-controls {
+    width: 30%;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.label-category {
+    background-color: #b283be;
+    color: ;
+    padding: 5px 15px;
+    margin: 5px;
+    border: 1px solid #b283be;
+    border-radius: 20px;
+}
+
+.control-button {
+    background-color: black;
+    color: white;
+    border: 1px solid #b283be;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.control-button:hover {
+    background-color: #b283be;
+}
+
+.control-input {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid #b283be;
+    border-radius: 4px;
+}
+
+.flexbox-container {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    width: 100%; 
+    padding-right: 20px; 
+    margin-right: 600px;
+    height: 600px;
+
+}
+
+.box {
+    border: 1px solid white;
+    width: 90px; 
+    height: 90px; 
+    margin: 10px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent; 
+}
+
+#box1 {
+    background-image: url(jupiter.webp);
+}
+
+#box2 {
+    background-image: url(neptune.webp);
+}
+
+#box3 {
+    background-image: url(mars.png);
+    background-size: cover;
+    background-position: center;
+    background-color: transparent; 
+}

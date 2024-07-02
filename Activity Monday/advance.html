@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<br lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Configurator</title>
+    <title>Flexbox ni Jeff</title>
     <link rel="stylesheet" href="advance.css">
 </head>
-<body>
+<br>
+    <h1>Flexbox-Configure</h1>
+    <button id ="resetFlexbox">Reset Flexbox</button>
     <div class="controls">
-        <button id="resetFlexbox">Reset Flexbox</button>
+    <div class="controls-container">
         <div>
-            <label>Gap</label>
+            <label>Gap:</label>
             <input type="number" id="gap" value="0">
-        </div>
-        <div>
-            <label>Flex Direction</label>
+        </div></div>
+        <label class="flexCateg">Flex Direction</label>
+        <div class = "controls">
             <button class="flexDirection" data-direction="row">Row</button>
             <button class="flexDirection" data-direction="column">Column</button>
         </div>
-        <div>
-            <label>Justify Content</label>
+        
+        <label class = "justifyCateg">Justify Content</label>
+        <div class = "controls">
             <button class="justifyContent" data-justify="flex-start">Start</button>
             <button class="justifyContent" data-justify="center">Center</button>
             <button class="justifyContent" data-justify="flex-end">End</button>
@@ -27,14 +30,16 @@
             <button class="justifyContent" data-justify="space-around">Space Around</button>
             <button class="justifyContent" data-justify="space-evenly">Space Evenly</button>
         </div>
-        <div>
-            <label>Align Items</label>
+        
+        <label>Align Items</label>
+        <div class = "controls">
             <button class="alignItems" data-align="flex-start">Start</button>
             <button class="alignItems" data-align="center">Center</button>
             <button class="alignItems" data-align="flex-end">End</button>
         </div>
-        <div>
-            <label>Flex Grow</label>
+
+        <label>Flex Grow</label>
+        <div class = "controls">
             <button id="resetGrow">Reset</button>
             <button id="growAll">Grow All</button>
             <div>
