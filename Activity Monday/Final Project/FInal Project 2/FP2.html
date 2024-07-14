@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jefferson Paul M. Petronio</title>
+    <link rel="stylesheet" href="FP2.css">
+    <script src="https://kit.fontawesome.com/9b49f84d01.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="logo2.jpg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>User Interface/User Experience Designer</p>
+            <h1>Hi, I'm <span>Jefferson Petronio</span><br> your designer!</h1>
+        </div>
+        <div id="header"></div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="for-column-1">
+                    <img src="aboutmepic.jpg" alt="About Me">
+                </div>
+                <div class="for-column-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quae, maxime suscipit aut officiis consequuntur inventore sunt illo a ducimus pariatur qui nihil quia dignissimos vitae reprehenderit corrupti non tempore?</p>
+
+                    <div class="tabcategories">
+                        <p class="tab-links tab-activate" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents block-activate" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Web Design</li>
+                            <li><span>Programming</span><br> Web app Development</li>
+                            <li><span>Hardware</span><br> Basic Computer Proficiency</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br> Arduino Motion Sensing Research</li>
+                            <li><span>2023</span><br> Computer Programming 1</li>
+                            <li><span>2023</span><br> Computer Programming 2</li>
+                            <li><span>2024</span><br> User Design Fundamentals</li>
+                            <li><span>2024</span><br> User Experience Design Fundamentals</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2012-2017</span><br>Our Lady of Lourdes Academy</li>
+                            <li><span>2017-2023 High-school/Senior-High</span><br>Siena College of San Jose</li>
+                            <li><span>2023-Current</span><br> FEU Insitiute of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects section -->
+    <div id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-title-pad-15">
+                <h1 class="subtitle2">Projects</h1>
+            </div>
+            <div id="projects-container">
+                <div class="projects-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="projects-text">
+                        <h2>Project 1</h2>
+                        <p>Project 1 description goes here. <a href="https://example.com/project1" target="_blank">View Project</a></p>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="projects-text">
+                        <h2>Project 2</h2>
+                        <p>Project 2 description goes here. <a href="https://example.com/project2" target="_blank">View Project</a></p>
+                    </div>
+                </div>
+                <div class="projects-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="projects-text">
+                        <h2>Project 3</h2>
+                        <p>Project 3 description goes here. <a href="https://example.com/project3" target="_blank">View Project</a></p>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container">
+            <div class="for-column-2">
+                <h1 class="subtitle2">My Services</h1>
+                <div class="servicesList">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Designing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore sint aspernatur optio fuga necessitatibus facere nihil quasi? Explicabo sint adipisci minus placeat consequatur fuga ab praesentium minima ipsa odit.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-spray-can"></i>
+                        <h2>User Interface/User Experience</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore sint aspernatur optio fuga necessitatibus facere nihil quasi? Explicabo sint adipisci minus placeat consequatur fuga ab praesentium minima ipsa odit.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ethernet"></i>
+                        <h2>Hardware</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore sint aspernatur optio fuga necessitatibus facere nihil quasi? Explicabo sint adipisci minus placeat consequatur fuga ab praesentium minima ipsa odit.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="FP2.js"></script>
+</body>
+</html>
